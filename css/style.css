@@ -310,6 +310,11 @@ a:focus {
     color: red;
     border: none;
     padding-left: 20px; }
+@media (max-width: 600px) {
+ .consultation label.error {
+  position: relative;
+ }
+}
 
 .carousel {
   min-width: 0;
@@ -767,8 +772,7 @@ a:focus {
   height: 50px;
   border-radius: 50px;
   background-color: #c70101;
-  -webkit-animation: pageup 2s linear infinite;
-          animation: pageup 2s linear infinite;
+
   transition: all 1s ease; }
   .pageup::after {
     content: "";
